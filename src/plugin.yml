@@ -1,0 +1,16 @@
+main: me.ddquin.quake.Main
+name: QuakeShot
+version: "1.0"
+api-version: "1.13"
+author: DDQuin
+commands:
+  quakeshot:
+    description: Commands for the QuakeShot plugin.
+    permission: quakeshot.default
+    aliases:
+      - qs
+  quakearena:
+    description: Commands for creating arena
+    permission: quakeshot.admin
+    aliases:
+      - qa
